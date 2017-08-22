@@ -23,7 +23,7 @@ Partial Class QuantaMastePage : Inherits System.Web.UI.MasterPage
 
             'Obteniendo la OPU:
             Dim OPU As Integer
-            OPU = Usuario_BL.COL_RESTRICCION_OBTENER_OPU(usuario)
+            OPU = "Usuario_BL.COL_RESTRICCION_OBTENER_OPU(usuario)"
             Session("OPU") = OPU
 
             'Español:
